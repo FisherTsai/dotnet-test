@@ -4,6 +4,8 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string str = "Hello, World!";
+        string nullstring = null;
+        Console.WriteLine(str + nullstring);
     }
 }
